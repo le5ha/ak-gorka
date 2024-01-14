@@ -29,3 +29,11 @@
 @import url('../styles/blocks/carousel/__button/_type/carousel__button_type_right.css');
 @import url('../styles/blocks/carousel/__slide/_type/carousel__slide_type_hidden.css');
 @import url('../styles/blocks/carousel/__slide/_type/carousel__slide_type_current.css');
+@import url('../styles/blocks/location/location.css');
+@import url('../styles/blocks/location/__map/location__map.css');
+@import url('../styles/blocks/location/__title/location__title.css');
+@import url('../styles/blocks/location/__list/location__list.css');
+@import url('../styles/blocks/location/__point/location__point.css');
+@import url('../styles/blocks/location/__distance/location__distance.css');
+@import url('../styles/blocks/location/__text/location__text.css');
+@import url('../styles/blocks/location/__name/location__name.css');

@@ -6,6 +6,7 @@
   "scripts": {
     "clean": "rm -rf dist",
     "build": "npm run clean && webpack",
+    "dev": "webpack serve",
     "predeploy": "npm run build && touch dist/.nojekyll",
     "deploy": "gh-pages -d dist"
   },
