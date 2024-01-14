@@ -122,6 +122,38 @@
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[0].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/styles/blocks/carousel/__slide/_type/carousel__slide_type_current.css ***!
   \***************************************************************************************************************************************************************************************************/
 .carousel__slide_type_current{display:block;opacity:1}
+/*!*****************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[0].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/styles/blocks/location/location.css ***!
+  \*****************************************************************************************************************************************************************/
+.location{display:flex;flex-direction:column;margin:0 10%;width:80%}
+/*!****************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[0].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/styles/blocks/location/__map/location__map.css ***!
+  \****************************************************************************************************************************************************************************/
+.location__map{border:none;flex-grow:1;height:500px;width:100%}
+/*!********************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[0].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/styles/blocks/location/__title/location__title.css ***!
+  \********************************************************************************************************************************************************************************/
+.location__title{color:#282828;font-family:Philosopher;font-feature-settings:"clig" off,"liga" off;font-size:40px;font-style:normal;font-weight:700;line-height:110%;padding:0 0 60px}
+/*!******************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[0].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/styles/blocks/location/__list/location__list.css ***!
+  \******************************************************************************************************************************************************************************/
+.location__list{display:flex;flex-direction:row;flex-wrap:wrap;justify-content:space-between;padding:40px 0 0}
+/*!********************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[0].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/styles/blocks/location/__point/location__point.css ***!
+  \********************************************************************************************************************************************************************************/
+.location__point{align-items:flex-start;display:flex;flex-direction:column;padding:0}
+/*!**************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[0].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/styles/blocks/location/__distance/location__distance.css ***!
+  \**************************************************************************************************************************************************************************************/
+.location__distance{color:#282828;font-family:Philosopher;font-feature-settings:"clig" off,"liga" off;font-size:70px;font-style:normal;font-weight:700;line-height:100%;margin:0;padding:0 0 10px}
+/*!******************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[0].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/styles/blocks/location/__text/location__text.css ***!
+  \******************************************************************************************************************************************************************************/
+.location__text{color:#282828;font-family:Inter;font-feature-settings:"clig" off,"liga" off;font-size:18px;font-style:normal;font-weight:400;line-height:130%;margin:0;padding:0}
+/*!******************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[0].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/styles/blocks/location/__name/location__name.css ***!
+  \******************************************************************************************************************************************************************************/
+.location__name{color:#282828;font-family:Philosopher;font-feature-settings:"clig" off,"liga" off;font-size:40px;font-style:normal;font-weight:700;line-height:100%;margin:0;padding:0 0 10px}
 /*!*********************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[0].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/pages/index.css ***!
   \*********************************************************************************************************************************************/

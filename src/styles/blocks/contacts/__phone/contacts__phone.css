@@ -1,0 +1,13 @@
+.contact__phone {
+    list-style: none;
+    color: #282828;
+    text-align: center;
+    font-feature-settings: "clig" off, "liga" off;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 130%;
+    margin: 0;
+    padding: 0;
+}

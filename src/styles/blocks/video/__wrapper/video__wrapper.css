@@ -1,0 +1,9 @@
+.video__wrapper {
+    position: relative;
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 100%;
+    padding-bottom: 56.25%; /* This gives a 16:9 aspect ratio */
+    overflow: hidden;
+  }

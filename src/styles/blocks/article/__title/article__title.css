@@ -1,4 +1,4 @@
-.about__title {
+.article__title {
   color: #282828;
   font-feature-settings: "clig" off, "liga" off;
   font-family: Philosopher;
@@ -7,4 +7,5 @@
   font-weight: 700;
   line-height: 110%; /* 44px */
   flex: 1;
+  margin: 0;
 }
