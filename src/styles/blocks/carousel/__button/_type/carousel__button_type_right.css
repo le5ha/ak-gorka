@@ -1,0 +1,5 @@
+.carousel__button_type_right {
+    cursor: pointer;
+    background: transparent url('/src/styles/images/icons/arrow_right.svg') no-repeat center;
+    right: 10px;
+}

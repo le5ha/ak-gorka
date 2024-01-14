@@ -1,0 +1,5 @@
+.carousel__button_type_left {
+    cursor: pointer;
+    background: transparent url('/src/styles/images/icons/arrow_left.svg') no-repeat center;
+    left: 10px;
+}

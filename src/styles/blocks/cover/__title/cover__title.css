@@ -1,0 +1,10 @@
+.cover__title {
+  color: white;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Philosopher;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%; 
+  margin: 0;
+}

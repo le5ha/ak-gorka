@@ -1,0 +1,5 @@
+.carousel__slide_type_current {
+    display: block;
+    opacity: 1;
+}
+

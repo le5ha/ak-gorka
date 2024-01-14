@@ -1,0 +1,7 @@
+.buttons {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    align-items: center;
+    gap: 44px;
+}

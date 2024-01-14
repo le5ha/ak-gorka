@@ -1,0 +1,10 @@
+.about__text {
+  color: #282828;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%;
+  max-width: 590px;
+}
