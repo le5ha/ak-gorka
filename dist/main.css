@@ -65,7 +65,7 @@
 /*!******************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[0].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/styles/blocks/cover/__wrapper/cover__wrapper.css ***!
   \******************************************************************************************************************************************************************************/
-.cover__wrapper{align-items:flex-start;align-self:flex-start;display:inline-flex;flex-direction:column;justify-content:flex-start;margin-left:10%;max-width:570px;padding:40px 0 0}
+.cover__wrapper{align-items:flex-start;align-self:flex-start;display:inline-flex;flex-direction:column;justify-content:flex-start;margin-left:10%;max-width:500px;padding:40px 0 0}
 /*!***********************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[0].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/styles/blocks/about/about.css ***!
   \***********************************************************************************************************************************************************/
@@ -89,11 +89,11 @@
 /*!****************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[0].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/styles/blocks/carousel/__container/carousel__container.css ***!
   \****************************************************************************************************************************************************************************************/
-.carousel__container{overflow:hidden}
+.carousel__container{overflow:hidden;width:100%}
 /*!********************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[0].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/styles/blocks/carousel/__track/carousel__track.css ***!
   \********************************************************************************************************************************************************************************/
-.carousel__track{display:flex;transition:transform .5s ease-in-out}
+.carousel__track{display:flex;overflow:hidden;width:100%}
 /*!********************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[0].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/styles/blocks/carousel/__image/carousel__image.css ***!
   \********************************************************************************************************************************************************************************/
@@ -105,15 +105,23 @@
 /*!********************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[0].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/styles/blocks/carousel/__slide/carousel__slide.css ***!
   \********************************************************************************************************************************************************************************/
-.carousel__slide{list-style:none;min-width:100%}
+.carousel__slide{flex:0 0 auto;transition:opacity .5s ease-in-out;width:100%}
 /*!**************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[0].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/styles/blocks/carousel/__button/_type/carousel__button_type_left.css ***!
   \**************************************************************************************************************************************************************************************************/
-.carousel__button_type_left{background:transparent url(images/arrow_left.42df748fe2aaaf91a5b7.svg) no-repeat 50%;cursor:pointer;left:10px}
+.carousel__button_type_left{background:transparent url(images/arrow_left.08f2737bf4a3ccd66b8c.svg) no-repeat 50%;cursor:pointer;left:10px}
 /*!***************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[0].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/styles/blocks/carousel/__button/_type/carousel__button_type_right.css ***!
   \***************************************************************************************************************************************************************************************************/
 .carousel__button_type_right{background:transparent url(images/arrow_right.d1b5f9650e27c0d72411.svg) no-repeat 50%;cursor:pointer;right:10px}
+/*!**************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[0].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/styles/blocks/carousel/__slide/_type/carousel__slide_type_hidden.css ***!
+  \**************************************************************************************************************************************************************************************************/
+.carousel__slide_type_hidden{display:none}
+/*!***************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[0].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/styles/blocks/carousel/__slide/_type/carousel__slide_type_current.css ***!
+  \***************************************************************************************************************************************************************************************************/
+.carousel__slide_type_current{display:block;opacity:1}
 /*!*********************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[0].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/pages/index.css ***!
   \*********************************************************************************************************************************************/
