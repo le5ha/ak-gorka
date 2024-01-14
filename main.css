@@ -1,0 +1,130 @@
+/*!*********************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[0].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/styles/vendor/normalize.css ***!
+  \*********************************************************************************************************************************************************/
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */html{line-height:1.15;-webkit-text-size-adjust:100%}body{margin:0}main{display:block}h1{font-size:2em;margin:.67em 0}hr{box-sizing:content-box;height:0;overflow:visible}pre{font-family:monospace,monospace;font-size:1em}a{background-color:transparent}abbr[title]{border-bottom:none;text-decoration:underline;-webkit-text-decoration:underline dotted;text-decoration:underline dotted}b,strong{font-weight:bolder}code,kbd,samp{font-family:monospace,monospace;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}img{border-style:none}button,input,optgroup,select,textarea{font-family:inherit;font-size:100%;line-height:1.15;margin:0}button,input{overflow:visible}button,select{text-transform:none}[type=button],[type=reset],[type=submit],button{-webkit-appearance:button}[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{border-style:none;padding:0}[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring,button:-moz-focusring{outline:1px dotted ButtonText}fieldset{padding:.35em .75em .625em}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}progress{vertical-align:baseline}textarea{overflow:auto}[type=checkbox],[type=radio]{box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}details{display:block}summary{display:list-item}[hidden],template{display:none}
+/*!***********************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[0].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/styles/vendor/fonts/fonts.css ***!
+  \***********************************************************************************************************************************************************/
+@font-face{font-family:Inter;font-style:thin;font-weight:100;src:url(fonts/Inter-Thin.ttf) format("truetype")}@font-face{font-family:Inter;font-style:extralight;font-weight:200;src:url(fonts/Inter-ExtraLight.ttf) format("truetype")}@font-face{font-family:Inter;font-style:light;font-weight:300;src:url(fonts/Inter-Light.ttf) format("truetype")}@font-face{font-family:Inter;font-style:normal;font-weight:400;src:url(fonts/Inter-Regular.ttf) format("truetype")}@font-face{font-family:Inter;font-style:medium;font-weight:500;src:url(fonts/Inter-Medium.ttf) format("truetype")}@font-face{font-family:Inter;font-style:semibold;font-weight:600;src:url(fonts/Inter-SemiBold.ttf) format("truetype")}@font-face{font-family:Inter;font-style:bold;font-weight:700;src:url(fonts/Inter-Bold.ttf) format("truetype")}@font-face{font-family:Inter;font-style:black;font-weight:900;src:url(fonts/Inter-Black.ttf) format("truetype")}@font-face{font-family:Inter;font-style:ExtraBold;font-weight:800;src:url(fonts/Inter-ExtraBold.ttf) format("truetype")}@font-face{font-family:Philosopher;font-style:normal;font-weight:400;src:url(fonts/Philosopher-Regular.ttf) format("truetype")}@font-face{font-family:Philosopher;font-style:bold;font-weight:800;src:url(fonts/Philosopher-Bold.ttf) format("truetype")}
+/*!*************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[0].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/styles/blocks/header/header.css ***!
+  \*************************************************************************************************************************************************************/
+.header{align-items:center;background:#282828;color:#fff;display:flex;flex-direction:row;font-family:Inter;font-size:18px;font-style:normal;font-weight:400;gap:40px;justify-content:center;line-height:140%;max-height:76px;padding:16px auto;text-decoration:none}
+/*!********************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[0].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/styles/blocks/header/__content/header__content.css ***!
+  \********************************************************************************************************************************************************************************/
+.header__content{align-items:center;display:flex;flex-wrap:nowrap;justify-content:space-between;max-width:1280px;padding:20px 0;width:80%}
+/*!**************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[0].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/styles/blocks/header/__list/header__list.css ***!
+  \**************************************************************************************************************************************************************************/
+.header__list{align-items:center;display:flex;flex-direction:row;gap:20px;justify-content:space-between;list-style-type:none}
+/*!****************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[0].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/styles/blocks/header/__title/header__title.css ***!
+  \****************************************************************************************************************************************************************************/
+.header__title{font-family:Philosopher;font-feature-settings:"clig" off,"liga" off;font-size:40px;font-style:normal;font-weight:700;line-height:110%}
+/*!**************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[0].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/styles/blocks/header/__link/header__link.css ***!
+  \**************************************************************************************************************************************************************************/
+.header__link{color:#fff;text-decoration:none}.header__link:hover{opacity:.6;transition:.2s}
+/*!*********************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[0].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/styles/blocks/body/body.css ***!
+  \*********************************************************************************************************************************************************/
+
+/*!***********************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[0].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/styles/blocks/cover/cover.css ***!
+  \***********************************************************************************************************************************************************/
+.cover{align-items:flex-start;background-image:linear-gradient(134deg,rgba(40,40,40,.49) 10.2%,rgba(40,40,40,.49) 31.78%,rgba(40,40,40,.31) 39.57%,rgba(40,40,40,0) 50.59%,rgba(40,40,40,0) 64.16%),url(images/main.9b4e3c5bd6287ba870ea.png);background-position:50%;background-repeat:no-repeat;background-size:cover;display:flex;flex-direction:column;gap:24px;height:100vh;justify-content:flex-start;width:100%}
+/*!**************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[0].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/styles/blocks/cover/__title/cover__title.css ***!
+  \**************************************************************************************************************************************************************************/
+.cover__title{color:#fff;font-family:Philosopher;font-feature-settings:"clig" off,"liga" off;font-size:72px;font-style:normal;font-weight:700;line-height:100%;margin:0}
+/*!************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[0].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/styles/blocks/cover/__text/cover__text.css ***!
+  \************************************************************************************************************************************************************************/
+.cover__text{color:#fff;font-family:Inter;font-feature-settings:"clig" off,"liga" off;font-size:18px;font-style:normal;font-weight:400;line-height:130%;padding:0 0 24px}
+/*!*************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[0].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/styles/blocks/button/button.css ***!
+  \*************************************************************************************************************************************************************/
+.button{align-items:center;border:none;display:flex;flex-shrink:0;font-family:Inter;font-size:17px;font-style:normal;font-weight:600;gap:10px;height:58px;justify-content:center;line-height:140%;text-align:center;width:225px}.button:hover{cursor:pointer;opacity:.8;scale:1.05;transition:.2s}
+/*!**************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[0].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/styles/blocks/button/__call/button__call.css ***!
+  \**************************************************************************************************************************************************************************/
+.button__call{background-color:#000;color:#fff}
+/*!****************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[0].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/styles/blocks/button/__write/button__write.css ***!
+  \****************************************************************************************************************************************************************************/
+.button__write{background-color:#fff;border:1px solid #282828;color:#282828}
+/*!*********************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[0].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/styles/blocks/button/__write/_type/button__write_type_cover.css ***!
+  \*********************************************************************************************************************************************************************************************/
+.button__write_type_cover{border:none}
+/*!***************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[0].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/styles/blocks/buttons/buttons.css ***!
+  \***************************************************************************************************************************************************************/
+.buttons{align-items:center;display:flex;flex-direction:row;gap:44px;list-style-type:none}
+/*!******************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[0].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/styles/blocks/cover/__wrapper/cover__wrapper.css ***!
+  \******************************************************************************************************************************************************************************/
+.cover__wrapper{align-items:flex-start;align-self:flex-start;display:inline-flex;flex-direction:column;justify-content:flex-start;margin-left:10%;max-width:500px;padding:40px 0 0}
+/*!***********************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[0].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/styles/blocks/about/about.css ***!
+  \***********************************************************************************************************************************************************/
+.about{display:flex;flex-direction:column;justify-content:center;margin:150px auto;width:80%}
+/*!******************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[0].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/styles/blocks/about/__wrapper/about__wrapper.css ***!
+  \******************************************************************************************************************************************************************************/
+.about__wrapper{align-items:flex-start;display:flex;flex-direction:row;justify-content:space-between}
+/*!**************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[0].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/styles/blocks/about/__title/about__title.css ***!
+  \**************************************************************************************************************************************************************************/
+.about__title{color:#282828;flex:1;font-family:Philosopher;font-feature-settings:"clig" off,"liga" off;font-size:40px;font-style:normal;font-weight:700;line-height:110%}
+/*!************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[0].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/styles/blocks/about/__text/about__text.css ***!
+  \************************************************************************************************************************************************************************/
+.about__text{color:#282828;font-family:Inter;font-feature-settings:"clig" off,"liga" off;font-size:18px;font-style:normal;font-weight:400;line-height:130%;max-width:590px}
+/*!*****************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[0].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/styles/blocks/carousel/carousel.css ***!
+  \*****************************************************************************************************************************************************************/
+.carousel{position:relative;width:100%}
+/*!****************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[0].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/styles/blocks/carousel/__container/carousel__container.css ***!
+  \****************************************************************************************************************************************************************************************/
+.carousel__container{overflow:hidden;width:100%}
+/*!********************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[0].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/styles/blocks/carousel/__track/carousel__track.css ***!
+  \********************************************************************************************************************************************************************************/
+.carousel__track{display:flex;overflow:hidden;width:100%}
+/*!********************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[0].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/styles/blocks/carousel/__image/carousel__image.css ***!
+  \********************************************************************************************************************************************************************************/
+.carousel__image{align-self:center;display:flex;height:auto;min-width:100%}
+/*!**********************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[0].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/styles/blocks/carousel/__button/carousel__button.css ***!
+  \**********************************************************************************************************************************************************************************/
+.carousel__button{background:none;border:none;cursor:pointer;height:38px;margin:0;padding:0;position:absolute;top:50%;transform:translateY(-50%);width:38px;z-index:2}
+/*!********************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[0].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/styles/blocks/carousel/__slide/carousel__slide.css ***!
+  \********************************************************************************************************************************************************************************/
+.carousel__slide{flex:0 0 auto;transition:opacity .5s ease-in-out;width:100%}
+/*!**************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[0].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/styles/blocks/carousel/__button/_type/carousel__button_type_left.css ***!
+  \**************************************************************************************************************************************************************************************************/
+.carousel__button_type_left{background:transparent url(images/arrow_left.08f2737bf4a3ccd66b8c.svg) no-repeat 50%;cursor:pointer;left:10px}
+/*!***************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[0].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/styles/blocks/carousel/__button/_type/carousel__button_type_right.css ***!
+  \***************************************************************************************************************************************************************************************************/
+.carousel__button_type_right{background:transparent url(images/arrow_right.d1b5f9650e27c0d72411.svg) no-repeat 50%;cursor:pointer;right:10px}
+/*!**************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[0].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/styles/blocks/carousel/__slide/_type/carousel__slide_type_hidden.css ***!
+  \**************************************************************************************************************************************************************************************************/
+.carousel__slide_type_hidden{display:none}
+/*!***************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[0].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/styles/blocks/carousel/__slide/_type/carousel__slide_type_current.css ***!
+  \***************************************************************************************************************************************************************************************************/
+.carousel__slide_type_current{display:block;opacity:1}
+/*!*********************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[0].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/pages/index.css ***!
+  \*********************************************************************************************************************************************/
+
+
+/*# sourceMappingURL=main.css.map*/
