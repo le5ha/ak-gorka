@@ -173,7 +173,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_Carousel_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/Carousel.js */ "./src/components/Carousel.js");
 
 
-var carousel = new _components_Carousel_js__WEBPACK_IMPORTED_MODULE_1__.Carousel('.carousel__track', '.carousel__button_type_left', '.carousel__button_type_right');
+var carouselAbout = new _components_Carousel_js__WEBPACK_IMPORTED_MODULE_1__.Carousel('.carousel__track-about', '.carousel__button_type_left', '.carousel__button_type_right');
+var carouselplans = new _components_Carousel_js__WEBPACK_IMPORTED_MODULE_1__.Carousel('.carousel__track-plans', '.carousel__button_type_left', '.carousel__button_type_right');
 })();
 
 /******/ })()

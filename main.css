@@ -9,7 +9,7 @@
 /*!*************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[0].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/styles/blocks/header/header.css ***!
   \*************************************************************************************************************************************************************/
-.header{align-items:center;background:#282828;color:#fff;display:flex;flex-direction:row;font-family:Inter;font-size:18px;font-style:normal;font-weight:400;gap:40px;justify-content:center;line-height:140%;max-height:76px;padding:16px auto;text-decoration:none}
+.header{align-items:center;background:#282828;color:#fff;display:flex;flex-direction:row;font-family:Inter;font-size:18px;font-style:normal;font-weight:300;gap:40px;justify-content:center;line-height:140%;max-height:76px;padding:16px auto;text-decoration:none}
 /*!********************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[0].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/styles/blocks/header/__content/header__content.css ***!
   \********************************************************************************************************************************************************************************/
@@ -41,7 +41,7 @@
 /*!************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[0].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/styles/blocks/cover/__text/cover__text.css ***!
   \************************************************************************************************************************************************************************/
-.cover__text{color:#fff;font-family:Inter;font-feature-settings:"clig" off,"liga" off;font-size:18px;font-style:normal;font-weight:400;line-height:130%;padding:0 0 24px}
+.cover__text{color:#fff;font-family:Inter;font-feature-settings:"clig" off,"liga" off;font-size:18px;font-style:normal;font-weight:300;line-height:130%;padding:0 0 24px}
 /*!*************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[0].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/styles/blocks/button/button.css ***!
   \*************************************************************************************************************************************************************/
@@ -66,22 +66,22 @@
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[0].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/styles/blocks/cover/__wrapper/cover__wrapper.css ***!
   \******************************************************************************************************************************************************************************/
 .cover__wrapper{align-items:flex-start;align-self:flex-start;display:inline-flex;flex-direction:column;justify-content:flex-start;margin-left:10%;max-width:500px;padding:40px 0 0}
-/*!***********************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[0].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/styles/blocks/about/about.css ***!
-  \***********************************************************************************************************************************************************/
-.about{display:flex;flex-direction:column;justify-content:center;margin:150px auto;width:80%}
+/*!***************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[0].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/styles/blocks/article/article.css ***!
+  \***************************************************************************************************************************************************************/
+.article{display:flex;flex-direction:column;justify-content:center;margin:150px auto;width:80%}
+/*!**********************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[0].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/styles/blocks/article/__wrapper/article__wrapper.css ***!
+  \**********************************************************************************************************************************************************************************/
+.article__wrapper{align-items:flex-start;display:flex;flex-direction:row;justify-content:space-between}
 /*!******************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[0].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/styles/blocks/about/__wrapper/about__wrapper.css ***!
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[0].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/styles/blocks/article/__title/article__title.css ***!
   \******************************************************************************************************************************************************************************/
-.about__wrapper{align-items:flex-start;display:flex;flex-direction:row;justify-content:space-between}
-/*!**************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[0].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/styles/blocks/about/__title/about__title.css ***!
-  \**************************************************************************************************************************************************************************/
-.about__title{color:#282828;flex:1;font-family:Philosopher;font-feature-settings:"clig" off,"liga" off;font-size:40px;font-style:normal;font-weight:700;line-height:110%}
-/*!************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[0].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/styles/blocks/about/__text/about__text.css ***!
-  \************************************************************************************************************************************************************************/
-.about__text{color:#282828;font-family:Inter;font-feature-settings:"clig" off,"liga" off;font-size:18px;font-style:normal;font-weight:400;line-height:130%;max-width:590px}
+.article__title{color:#282828;flex:1;font-family:Philosopher;font-feature-settings:"clig" off,"liga" off;font-size:40px;font-style:normal;font-weight:700;line-height:110%;margin:0}
+/*!****************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[0].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/styles/blocks/article/__text/article__text.css ***!
+  \****************************************************************************************************************************************************************************/
+.article__text{color:#282828;font-family:Inter;font-feature-settings:"clig" off,"liga" off;font-size:18px;font-style:normal;font-weight:300;line-height:130%;max-width:590px}
 /*!*****************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[0].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/styles/blocks/carousel/carousel.css ***!
   \*****************************************************************************************************************************************************************/
@@ -133,7 +133,7 @@
 /*!********************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[0].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/styles/blocks/location/__title/location__title.css ***!
   \********************************************************************************************************************************************************************************/
-.location__title{color:#282828;font-family:Philosopher;font-feature-settings:"clig" off,"liga" off;font-size:40px;font-style:normal;font-weight:700;line-height:110%;padding:0 0 60px}
+.location__title{color:#282828;font-family:Philosopher;font-feature-settings:"clig" off,"liga" off;font-size:40px;font-style:normal;font-weight:700;line-height:110%;margin:0;padding:0 0 60px}
 /*!******************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[0].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/styles/blocks/location/__list/location__list.css ***!
   \******************************************************************************************************************************************************************************/
@@ -149,11 +149,51 @@
 /*!******************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[0].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/styles/blocks/location/__text/location__text.css ***!
   \******************************************************************************************************************************************************************************/
-.location__text{color:#282828;font-family:Inter;font-feature-settings:"clig" off,"liga" off;font-size:18px;font-style:normal;font-weight:400;line-height:130%;margin:0;padding:0}
+.location__text{color:#282828;font-family:Inter;font-feature-settings:"clig" off,"liga" off;font-size:18px;font-style:normal;font-weight:300;line-height:130%;margin:0;padding:0}
 /*!******************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[0].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/styles/blocks/location/__name/location__name.css ***!
   \******************************************************************************************************************************************************************************/
 .location__name{color:#282828;font-family:Philosopher;font-feature-settings:"clig" off,"liga" off;font-size:40px;font-style:normal;font-weight:700;line-height:100%;margin:0;padding:0 0 10px}
+/*!****************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[0].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/styles/blocks/plans/__text-wrapper/plans__text-wrapper.css ***!
+  \****************************************************************************************************************************************************************************************/
+.plans__text-wrapper{align-items:flex-start;display:flex;flex-direction:column;justify-content:space-between}
+/*!***********************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[0].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/styles/blocks/plans/plans.css ***!
+  \***********************************************************************************************************************************************************/
+.plans{margin:150px 10% 70px}
+/*!***********************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[0].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/styles/blocks/video/video.css ***!
+  \***********************************************************************************************************************************************************/
+.video{display:flex;flex-direction:column;margin:0;padding:0}
+/*!**************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[0].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/styles/blocks/video/__title/video__title.css ***!
+  \**************************************************************************************************************************************************************************/
+.video__title{color:#282828;font-family:Philosopher;font-feature-settings:"clig" off,"liga" off;font-size:40px;font-style:normal;font-weight:700;line-height:110%}
+/*!******************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[0].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/styles/blocks/video/__wrapper/video__wrapper.css ***!
+  \******************************************************************************************************************************************************************************/
+.video__wrapper{height:100%;left:0;overflow:hidden;padding-bottom:56.25%;position:relative;top:0;width:100%}
+/*!****************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[0].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/styles/blocks/video/__iframe/video__iframe.css ***!
+  \****************************************************************************************************************************************************************************/
+.video__iframe{height:100%;left:0;position:absolute;top:0;width:100%}
+/*!*****************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[0].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/styles/blocks/contacts/contacts.css ***!
+  \*****************************************************************************************************************************************************************/
+.contacts{align-items:center;display:flex;flex-direction:column;gap:12px;justify-content:center;margin:50px 0 0}
+/*!**********************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[0].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/styles/blocks/contacts/__adress/contacts__adress.css ***!
+  \**********************************************************************************************************************************************************************************/
+.contacts__adress{align-items:center;color:#282828;display:flex;flex-direction:column;font-family:Inter;font-feature-settings:"clig" off,"liga" off;font-size:18px;font-style:normal;font-weight:300;gap:0;justify-content:flex-start;line-height:130%;margin:0;padding:0;text-align:center}
+/*!**********************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[0].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/styles/blocks/contacts/__phones/contacts__phones.css ***!
+  \**********************************************************************************************************************************************************************************/
+.contacts__phones{align-items:center;color:#282828;display:flex;flex-direction:column;font-family:Inter;font-feature-settings:"clig" off,"liga" off;font-size:18px;font-style:light;font-weight:300;justify-content:center;line-height:130%;list-style:none;margin:0;padding:0 0 8px;text-align:center}
+/*!********************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[0].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/styles/blocks/contacts/__phone/contacts__phone.css ***!
+  \********************************************************************************************************************************************************************************/
+.contact__phone{color:#282828;font-family:Inter;font-feature-settings:"clig" off,"liga" off;font-size:18px;font-style:normal;font-weight:300;line-height:130%;list-style:none;margin:0;padding:0;text-align:center}
 /*!*********************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[0].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/pages/index.css ***!
   \*********************************************************************************************************************************************/
