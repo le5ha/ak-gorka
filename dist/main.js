@@ -46,30 +46,27 @@ var Carousel = /*#__PURE__*/function () {
     });
     this.updateSlides();
   }
-  _createClass(Carousel, [{
-    key: "startSwipe",
-    value: function startSwipe(e) {
-      this.startX = e.touches[0].clientX;
-    }
-  }, {
-    key: "moveSwipe",
-    value: function moveSwipe(e) {
-      var currentX = e.touches[0].clientX;
-      var diffX = this.startX - currentX;
-      if (diffX > 0) {
-        // Swiped left
-        this.move(1);
-      } else if (diffX < 0) {
-        // Swiped right
-        this.move(-1);
+  /*
+      startSwipe(e) {
+          this.startX = e.touches[0].clientX;
       }
-    }
-  }, {
-    key: "endSwipe",
-    value: function endSwipe() {
-      this.startX = 0;
-    }
-  }, {
+  
+      moveSwipe(e) {
+          const currentX = e.touches[0].clientX;
+          const diffX = this.startX - currentX;
+  
+          if (diffX > 0) {
+              this.move(1);
+          } else if (diffX < 0) {
+              this.move(-1);
+          }
+      }
+  
+      endSwipe() {
+          this.startX = 0;
+      }
+  */
+  _createClass(Carousel, [{
     key: "move",
     value: function move(n) {
       this.slideIndex += n;

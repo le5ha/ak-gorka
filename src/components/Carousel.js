@@ -18,7 +18,7 @@ export class Carousel {
 
         this.updateSlides();
     }
-
+/*
     startSwipe(e) {
         this.startX = e.touches[0].clientX;
     }
@@ -28,10 +28,8 @@ export class Carousel {
         const diffX = this.startX - currentX;
 
         if (diffX > 0) {
-            // Swiped left
             this.move(1);
         } else if (diffX < 0) {
-            // Swiped right
             this.move(-1);
         }
     }
@@ -39,7 +37,7 @@ export class Carousel {
     endSwipe() {
         this.startX = 0;
     }
-
+*/
     move(n) {
         this.slideIndex += n;
         if (this.slideIndex < 0) {
