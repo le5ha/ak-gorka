@@ -17,3 +17,15 @@
   margin: 0;
   padding: 0 0 8px 0;
 }
+
+@media screen and (max-width: 1280px) {
+  .contacts__phones {
+      font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .contacts__phones {
+      font-size: 14px;
+  }
+}

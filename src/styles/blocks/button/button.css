@@ -10,7 +10,7 @@
   font-family: Inter;
   font-size: 17px;
   font-style: normal;
-  font-weight: 600;
+  font-weight: 500;
   line-height: 140%;
   border: none;
 }
@@ -20,4 +20,12 @@
   opacity: 0.8;
   transition: 0.2s;
   scale: 1.05;
+}
+
+@media screen and (max-width: 600px) {
+  .button {
+    width: 150px;
+    height: 40px;
+    font-size: 14px;
+  }
 }

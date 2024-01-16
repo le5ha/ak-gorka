@@ -9,3 +9,21 @@
     padding: 0 0 10px 0;
     margin: 0;
 }
+
+@media screen and (max-width: 1280px) {
+    .location__distance {
+        font-size: 64px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .location__distance {
+        font-size: 55px;
+    }
+}
+
+@media screen and (max-width: 440px) {
+    .location__distance {
+        font-size: 48px;
+    }
+}

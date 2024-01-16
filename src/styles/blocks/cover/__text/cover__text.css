@@ -8,3 +8,16 @@
   line-height: 130%;
   padding: 0 0 24px 0; /* 23.4px */
 }
+
+@media screen and (max-width: 1280px) {
+  .cover__text {
+    font-size: 16px;
+  }
+}
+
+
+@media screen and (max-width: 800px) {
+  .cover__text {
+    font-size: 14px;
+  }
+}

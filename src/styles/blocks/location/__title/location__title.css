@@ -9,3 +9,31 @@
   padding: 0 0 60px 0;
   margin: 0;
 }
+
+@media screen and (max-width: 1280px) {
+  .location_title {
+    font-size: 36px;
+    padding: 0 0 40px 0;
+  } 
+}
+
+@media screen and (max-width: 1080px) {
+  .location__title {
+    font-size: 32px;
+    padding: 0 0 32px 0;
+  } 
+}
+
+@media screen and (max-width: 800px) {
+  .location__title {
+    font-size: 28px;
+    padding: 0 0 26px 0;
+  } 
+}
+
+@media screen and (max-width: 440px) {
+  .location__title {
+    font-size: 25px;
+    padding: 0 0 20px 0;
+  } 
+}

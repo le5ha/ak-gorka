@@ -9,3 +9,27 @@
   padding: 0 0 10px 0;
   margin: 0;
 }
+
+@media screen and (max-width: 1280px) {
+  .location__name {
+    font-size: 36px;
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  .location__name {
+    font-size: 32px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .location__name {
+    font-size: 28px;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  .location__name {
+    font-size: 22px;
+  }
+}

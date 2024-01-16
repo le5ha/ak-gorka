@@ -7,7 +7,7 @@ module.exports = {
     output: {
         path: path.resolve(__dirname, 'dist'),
         filename: 'main.js',
-        publicPath: ''
+        publicPath: '/repo/'
     },
     mode: 'development',
     plugins: [
@@ -37,7 +37,7 @@ module.exports = {
                 use: 'babel-loader',
             },
             {
-                test: /\.(png|svg|jpg|jpeg|gif)$/i,
+                test: /\.(png|svg|jpg|jpeg|gif|webp)$/i,
                 type: 'asset/resource',
                 generator: {
                     filename: 'images/[name].[hash][ext][query]'

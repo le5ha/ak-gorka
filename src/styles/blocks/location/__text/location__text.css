@@ -9,3 +9,21 @@
   padding: 0;
   margin: 0;
 }
+
+@media screen and (max-width: 1280px) {
+  .location__text {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .location__text {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  .location__text {
+    font-size: 10px;
+  }
+}

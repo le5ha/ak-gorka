@@ -1,4 +1,4 @@
-.contact__phone {
+.contacts__phone {
     list-style: none;
     color: #282828;
     text-align: center;
@@ -10,4 +10,16 @@
     line-height: 130%;
     margin: 0;
     padding: 0;
+}
+
+@media screen and (max-width: 1280px) {
+    .contacts__phone {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .contacts__phone {
+        font-size: 14px;
+    }
 }

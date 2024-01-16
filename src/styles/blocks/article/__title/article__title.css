@@ -9,3 +9,27 @@
   flex: 1;
   margin: 0;
 }
+
+@media screen and (max-width: 1280px) {
+  .article__title {
+    font-size: 36px;
+  } 
+}
+
+@media screen and (max-width: 1080px) {
+  .article__title {
+    font-size: 32px;
+  } 
+}
+
+@media screen and (max-width: 800px) {
+  .article__title {
+    font-size: 28px;
+  } 
+}
+
+@media screen and (max-width: 440px) {
+  .article__title {
+    font-size: 25px;
+  } 
+}

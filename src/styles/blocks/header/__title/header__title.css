@@ -5,4 +5,29 @@
     font-style: normal;
     font-weight: 700;
     line-height: 110%;
+    margin: 0;
+}
+
+@media screen and (max-width: 1280px) {
+    .header__title {
+        font-size: 36px;
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    .header__title {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 968px) {
+    .header__title {
+        font-size: 28px;
+    }
+}
+
+@media screen and (max-width: 440px) {
+    .header__title {
+        font-size: 20px;
+    }
 }

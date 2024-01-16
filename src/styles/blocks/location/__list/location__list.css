@@ -4,4 +4,32 @@
     flex-wrap: wrap;
     justify-content: space-between;
     padding: 40px 0 0 0;
+    gap: 12px;
+}
+
+@media screen and (max-width: 1000px) {
+    .location__list {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); /* This creates a 2-column grid */
+        justify-content: space-between;
+        align-content: space-between;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .location__list {
+        gap: 12px 64px;
+    }
+}
+
+@media screen and (max-width: 440px) {
+    .location__list {
+        gap: 12px 44px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .location__list {
+        gap: 12px 28px;
+    }
 }

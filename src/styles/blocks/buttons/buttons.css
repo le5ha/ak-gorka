@@ -5,3 +5,22 @@
     align-items: center;
     gap: 44px;
 }
+
+@media screen and (max-width: 1280px) {
+    .buttons {
+        gap: 32px;
+    } 
+}
+
+@media screen and (max-width: 1080px) {
+    .buttons {
+        gap: 20px;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .buttons {
+        gap: 20px;
+        flex-direction: column;
+    }
+}

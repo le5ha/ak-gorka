@@ -1,13 +1,12 @@
 .carousel__button {
     position: absolute;
-    z-index: 2; /* Increase the z-index */
-    top: 50%;
-    transform: translateY(-50%);
-    background: none;
+    z-index: 2;
+    top: 0; /* Align the button to the top of the carousel */
+    height: 100%; /* Make the button span the full height of the carousel */
+    background: rgba(255, 255, 255, 0.7);
     border: none;
     cursor: pointer;
     width: 38px;
-    height: 38px;
     padding: 0;
     margin: 0;
 }

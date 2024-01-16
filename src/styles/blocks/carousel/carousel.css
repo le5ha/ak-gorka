@@ -1,4 +1,6 @@
 .carousel {
     position: relative;
-    width: 100%;
-}
+    width: 100%; /* This will make the carousel take the full width of its parent, the .article */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margin */
+  }

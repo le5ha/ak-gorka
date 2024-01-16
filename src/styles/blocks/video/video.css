@@ -1,6 +1,15 @@
 .video {
     display: flex;
     flex-direction: column;
-    margin: 0;
+    margin: 0 10% 0 10%;
     padding: 0;
+    width: 80%;
 }
+
+  @media screen and (max-width: 800px) {
+    .video {
+      width: 90%;
+      margin: 0 5% 0 5%;
+    }
+  }
+  

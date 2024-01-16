@@ -1,3 +1,29 @@
 .plans {
     margin: 150px 10% 70px 10%;
+    justify-content: space-between;
 }
+
+@media screen and (max-width: 1280px) {
+    .plans {
+      margin: 100px auto 100px auto;
+    }
+  }
+  
+  @media screen and (max-width: 1080px) {
+    .plans {
+      margin: 80px auto 80px auto;
+    }
+  }
+  
+  @media screen and (max-width: 800px) {
+    .plans {
+      margin: 60px auto 60px auto;
+      width: 90%;
+    }
+  }
+  
+  @media screen and (max-width: 440px) {
+    .plans {
+      margin: 20px auto 20px auto;
+    }
+  }

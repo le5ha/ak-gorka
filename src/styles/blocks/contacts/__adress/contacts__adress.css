@@ -15,3 +15,15 @@
     font-weight: 300;
     line-height: 130%; 
 }
+
+@media screen and (max-width: 1280px) {
+    .contacts__adress {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .contacts__adress {
+        font-size: 14px;
+    }
+}

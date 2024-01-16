@@ -1,4 +1,4 @@
 .carousel__container {
-    width: 100%; /* Adjust this to the width of one slide */
+    width: 100%; 
     overflow: hidden;
 }

@@ -8,3 +8,16 @@
   line-height: 130%;
   max-width: 590px;
 }
+
+@media screen and (max-width: 800px) {
+  .article__text {
+    font-size: 16px;
+  } 
+}
+
+
+@media screen and (max-width: 440px) {
+  .article__text {
+    font-size: 14px;
+  } 
+}

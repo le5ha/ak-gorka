@@ -1,0 +1,15 @@
+.footer__title {
+    text-decoration: none;
+    color: #909090;
+    font-feature-settings: "clig" off, "liga" off;
+    font-family: Philosopher;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (max-width: 1080px) {
+    .footer__title {
+        padding-bottom: 20px;
+    }
+}
