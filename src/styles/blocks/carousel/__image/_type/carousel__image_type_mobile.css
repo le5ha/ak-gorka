@@ -1,0 +1,11 @@
+.carousel__image_type_mobile {
+    display: none;
+    max-height: 70vh; /* Limit the height to 70% of the viewport height */
+    object-fit: contain; /* Ensure the image is contained within the dimensions */
+}
+
+@media screen and (max-width: 600px) {
+    .carousel__image_type_mobile {
+        display: block;
+    }
+}

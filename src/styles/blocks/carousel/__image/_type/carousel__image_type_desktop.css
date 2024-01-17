@@ -1,0 +1,9 @@
+.carousel__image_type_desktop {
+    display: block;
+}
+
+@media screen and (max-width: 600px) {
+    .carousel__image_type_desktop {
+        display: none;
+    }
+}

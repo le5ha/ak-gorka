@@ -57,3 +57,5 @@
 @import url('../styles/blocks/buttons/_type/buttons_type_width.css');
 @import url('../styles/blocks/buttons/_type/buttons_type_center.css');
 @import url('../styles/blocks/buttons/__link/buttons__link.css');
+@import url('../styles/blocks/carousel/__image/_type/carousel__image_type_desktop.css');
+@import url('../styles/blocks/carousel/__image/_type/carousel__image_type_mobile.css');
