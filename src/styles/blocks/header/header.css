@@ -32,7 +32,6 @@
 
 @media screen and (max-width: 968px) {
   .header {
-    font-size: 12px;
     padding: 8px 0 8px 0;
     gap: 28px;
   }
@@ -40,7 +39,6 @@
 
 @media screen and (max-width: 440px) {
   .header {
-    font-size: 10px;
     padding: 6px 0 6px 0;
     gap: 14px;
   }

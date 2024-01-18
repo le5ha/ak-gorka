@@ -3,9 +3,11 @@
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>АК ГОРКА</title>
-    <meta name="description" content="" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>АК ГОРКА. Аппартаменты в Сочи от застройщика.</title>
+    <meta name="description" content="Апартаменты бизнес-класса в Сочи от застройщика.
+    Информация о комплексе апартаментов: преимущества, фотографии, планировки и контакты для просмотра и покупки"/>
+    <meta name="keywords" content="Апартаменты Аппапт-отель Сочи Хоста квартира купить"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
   </head>
   <body class="body">
     <header class="header">
@@ -37,11 +39,12 @@
         </ul>
       </nav>
     </header>
-    <div class="cover">
+    <main class="content">
+    <section class="cover">
       <div class="cover__wrapper">
-        <h1 class="cover__title">Комплекс апартаментов бизнес класса в Сочи</h1>
+        <h1 class="cover__title">Комплекс апартаментов бизнес класса в&nbsp;Сочи</h1>
         <p class="cover__text">
-          Доступно приоберетние апартаментов в ипотеку и рассрочку в лучших
+          Доступно приоберетние апартаментов в ипотеку и&nbsp;рассрочку в лучших
           банках страны
         </p>
         <div class="buttons__cover buttons">
@@ -58,9 +61,9 @@
         </a>
         </div>
       </div>
-    </div>
-    <div class="about article" id="about">
-      <div class="about__wrapper article__wrapper">
+    </section>
+    <section class="about article" id="about">
+      <article class="about__wrapper article__wrapper">
         <h2 class="about__title article__title">О проекте</h2>
         <p class="about__text article__text">
           AK «Горка» — это комплекс бизнес-класса, со своей закрытой и
@@ -69,7 +72,7 @@
           расположен на ул. Шоссейная в тихом и уютном микрорайоне «Хоста»,
           который является санаторно-курортной зоной.
         </p>
-      </div>
+      </article>
       <div class="about__carousel carousel">
         <button class="carousel__button carousel__button_type_left carousel__button-about"><svg xmlns="http://www.w3.org/2000/svg" width="38" height="38" viewBox="0 0 38 38" fill="none">
           <path d="M25.7856 32.5715L12.2142 19.0001L25.7856 5.42867" stroke="white" stroke-width="3"/>
@@ -80,13 +83,15 @@
               <img
               class="carousel__image"
               src="<%=require('./styles/images/photos/about/1.webp')%>"
-              alt="АК Горка – Фасад"/>
+              alt="АК Горка – Фасад"
+              loading="lazy"/>
             </li>
             <li class="carousel__slide carousel__slide_type_hidden">
               <img
                 class="carousel__image"
                 src="<%=require('./styles/images/photos/about/2.webp')%>"
                 alt="АК Горка – Вид с морем и горами"
+                loading="lazy"
               />
             </li>
             <li class="carousel__slide carousel__slide_type_hidden">
@@ -94,6 +99,7 @@
                 class="carousel__image"
                 src="<%=require('./styles/images/photos/about/3.webp')%>"
                 alt="АК Горка – Двор"
+                loading="lazy"
               />
             </li>
             <li class="carousel__slide carousel__slide_type_hidden">
@@ -101,6 +107,7 @@
                 class="carousel__image"
                 src="<%=require('./styles/images/photos/about/4.webp')%>"
                 alt="АК Горка – Лобби"
+                loading="lazy"
               />
             </li>
             <li class="carousel__slide carousel__slide_type_hidden">
@@ -108,6 +115,7 @@
                 class="carousel__image"
                 src="<%=require('./styles/images/photos/about/5.webp')%>"
                 alt="АК Горка – Лобби"
+                loading="lazy"
               />
             </li>
             <li class="carousel__slide carousel__slide_type_hidden">
@@ -115,6 +123,7 @@
                 class="carousel__image"
                 src="<%=require('./styles/images/photos/about/6.webp')%>"
                 alt="АК Горка – Двор"
+                loading="lazy"
               />
             </li>
           </ul>
@@ -123,9 +132,9 @@
           <path d="M12.2144 5.42847L25.7858 18.9999L12.2144 32.5713" stroke="white" stroke-width="3"/>
         </svg></button>
       </div>
-    </div>
+    </section>
 
-    <div class="location" id="location">
+    <section class="location" id="location">
       <h2 class="location__title">Расположение</h2>
       <div class="location__map" style="position: relative; overflow: hidden;">
         <a
@@ -143,32 +152,40 @@
         style="position: relative; width: 100%; height: 100%; border: none"
       ></iframe>
       </div>
-      <div class="location__list">
-        <div class="location__point">
-          <h3 class="location__distance">600 м</h3>
-          <p class="location__name">Пляж</p>
-          <p class="location__text">8 минут<br>(пешком)</p>
-        </div>
-        <div class="location__point">
-            <h3 class="location__distance">13 км</h3>
-            <p class="location__name">Аэропорт</p>
-            <p class="location__text">20 минут<br>(на автомобиле)</p>
-          </div>
-          <div class="location__point">
-            <h3 class="location__distance">18 км</h3>
-            <p class="location__name">Сириус</p>
-            <p class="location__text">20 минут<br>(на автомобиле)</p>
-          </div>
-          <div class="location__point">
-            <h3 class="location__distance">18 км</h3>
-            <p class="location__name">Центр Сочи</p>
-            <p class="location__text">20 минут<br>(на автомобиле)</p>
-          </div>
-      </div>
-    </div>
+      <ul class="location__list">
+        <li class="location__point">
+            <dl>
+                <dt class="location__distance">600 м</dt>
+                <dd class="location__name">Пляж</dd>
+                <dd class="location__text">8 минут<br>(пешком)</dd>
+            </dl>
+        </li>
+        <li class="location__point">
+            <dl>
+                <dt class="location__distance">13 км</dt>
+                <dd class="location__name">Аэропорт</dd>
+                <dd class="location__text">20 минут<br>(на автомобиле)</dd>
+            </dl>
+        </li>
+        <li class="location__point">
+            <dl>
+                <dt class="location__distance">18 км</dt>
+                <dd class="location__name">Сириус</dd>
+                <dd class="location__text">20 минут<br>(на автомобиле)</dd>
+            </dl>
+        </li>
+        <li class="location__point">
+            <dl>
+                <dt class="location__distance">18 км</dt>
+                <dd class="location__name">Центр Сочи</dd>
+                <dd class="location__text">20 минут<br>(на автомобиле)</dd>
+            </dl>
+        </li>
+    </ul>
+    </section>
 
-    <div class="plans article" id="plans">
-      <div class="plans__wrapper article__wrapper">
+    <section class="plans article" id="plans">
+      <article class="plans__wrapper article__wrapper">
       <h2 class="plans__title article__title">Планировки</h2>
       <div class="plans__text-wrapper">
       <p class="plans__text article__text">
@@ -184,7 +201,7 @@
           </a>
         </div>
     </div>
-    </div>
+    </article>
     <div class="plans__carousel carousel">
       <button class="carousel__button carousel__button_type_left carousel__button-plans"><svg xmlns="http://www.w3.org/2000/svg" width="38" height="38" viewBox="0 0 38 38" fill="none">
         <path d="M25.7856 32.5715L12.2142 19.0001L25.7856 5.42867" stroke="#282828" stroke-width="3"/>
@@ -195,96 +212,96 @@
             <img
               class="carousel__image carousel__image_type_desktop"
               src="<%=require('./styles/images/photos/plans_desktop/1.webp')%>"
-              alt="Фото 1"
+              alt="АК ГОРКА – планировка и фотографии аппартаментов - студии 75 кв.м."
             />
             <img
             class="carousel__image carousel__image_type_mobile"
             src="<%=require('./styles/images/photos/plans_mobile/1.webp')%>"
-            alt="Фото 1"
+            alt="АК ГОРКА – планировка и фотографии аппартаментов - студии 75 кв.м."
           />
           </li>
           <li class="carousel__slide carousel__slide_type_hidden">
             <img
               class="carousel__image carousel__image_type_desktop"
               src="<%=require('./styles/images/photos/plans_desktop/2.webp')%>"
-              alt="Фото 1"
+              alt="АК ГОРКА – планировка и фотографии аппартаментов - студии 49 кв.м."
             />
             <img
             class="carousel__image carousel__image_type_mobile"
             src="<%=require('./styles/images/photos/plans_mobile/2.webp')%>"
-            alt="Фото 1"
+            alt="АК ГОРКА – планировка и фотографии аппартаментов - студии 49 кв.м."
           />
           </li>
           <li class="carousel__slide carousel__slide_type_hidden">
             <img
               class="carousel__image carousel__image_type_desktop"
               src="<%=require('./styles/images/photos/plans_desktop/3.webp')%>"
-              alt="Фото 1"
+              alt="АК ГОРКА – планировка и фотографии аппартаментов - студии 44 кв.м."
             />
             <img
             class="carousel__image carousel__image_type_mobile"
             src="<%=require('./styles/images/photos/plans_mobile/3.webp')%>"
-            alt="Фото 1"
+            alt="АК ГОРКА – планировка и фотографии аппартаментов - студии 44 кв.м."
           />
           </li>
           <li class="carousel__slide carousel__slide_type_hidden">
             <img
               class="carousel__image carousel__image_type_desktop"
               src="<%=require('./styles/images/photos/plans_desktop/4.webp')%>"
-              alt="Фото 1"
+              alt="АК ГОРКА – планировка и фотографии аппартаментов - студии 35 кв.м."
             />
             <img
             class="carousel__image carousel__image_type_mobile"
             src="<%=require('./styles/images/photos/plans_mobile/4.webp')%>"
-            alt="Фото 1"
+            alt="АК ГОРКА – планировка и фотографии аппартаментов - студии 35 кв.м."
           />
           </li>
           <li class="carousel__slide carousel__slide_type_hidden">
             <img
               class="carousel__image carousel__image_type_desktop"
               src="<%=require('./styles/images/photos/plans_desktop/5.webp')%>"
-              alt="Фото 1"
+              alt="АК ГОРКА – планировка и фотографии аппартаментов - студии 29 кв.м."
             />
             <img
             class="carousel__image carousel__image_type_mobile"
             src="<%=require('./styles/images/photos/plans_mobile/5.webp')%>"
-            alt="Фото 1"
+            alt="АК ГОРКА – планировка и фотографии аппартаментов - студии 29 кв.м."
           />
           </li>
           <li class="carousel__slide carousel__slide_type_hidden">
             <img
               class="carousel__image carousel__image_type_desktop"
               src="<%=require('./styles/images/photos/plans_desktop/6.webp')%>"
-              alt="Фото 1"
+              alt="АК ГОРКА – планировка и фотографии аппартаментов - студии 25 кв.м."
             />
             <img
             class="carousel__image carousel__image_type_mobile"
             src="<%=require('./styles/images/photos/plans_mobile/6.webp')%>"
-            alt="Фото 1"
+            alt="АК ГОРКА – планировка и фотографии аппартаментов - студии 25 кв.м."
           />
           </li>
           <li class="carousel__slide carousel__slide_type_hidden">
             <img
               class="carousel__image carousel__image_type_desktop"
               src="<%=require('./styles/images/photos/plans_desktop/7.webp')%>"
-              alt="Фото 1"
+              alt="АК ГОРКА – планировка и фотографии аппартаментов - студии 24 кв.м."
             />
             <img
             class="carousel__image carousel__image_type_mobile"
             src="<%=require('./styles/images/photos/plans_mobile/7.webp')%>"
-            alt="Фото 1"
+            alt="АК ГОРКА – планировка и фотографии аппартаментов - студии 24 кв.м."
           />
           </li>
           <li class="carousel__slide carousel__slide_type_hidden">
             <img
               class="carousel__image carousel__image_type_desktop"
               src="<%=require('./styles/images/photos/plans_desktop/8.webp')%>"
-              alt="Фото 1"
+              alt="АК ГОРКА – планировка и фотографии аппартаментов - студии 22 кв.м."
             />
             <img
             class="carousel__image carousel__image_type_mobile"
             src="<%=require('./styles/images/photos/plans_mobile/8.webp')%>"
-            alt="Фото 1"
+            alt="АК ГОРКА – планировка и фотографии аппартаментов - студии 22 кв.м."
           />
           </li>
         </ul>
@@ -293,16 +310,16 @@
         <path d="M12.2144 5.42847L25.7858 18.9999L12.2144 32.5713" stroke="#282828" stroke-width="3"/>
       </svg></button>
     </div>
-    </div>
+    </section>
 
-    <div class="video" id="video">
+    <section class="video" id="video">
       <h2 class="video__title">Видеоролик о комплексе</h2>
       <div class="video__wrapper">
         <iframe class="video__iframe" src="https://www.youtube.com/embed/hC84QxXOWeY?si=0Y41mzcc5WQuRjpA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share " allowfullscreen style="width: 100%; height: 100%; border: none"></iframe>
       </div>
-      </div>
+      </section>
 
-      <div class="contacts" id="contacts">
+      <section class="contacts" id="contacts">
         <p class="contacts__adress">Адрес: Краснодарский край, г. Сочи, <br> Хостинский район, ул. Шоссейная, д. 11/1</p>
         <ul class="contacts__phones">
           <li class="contacts__phone">Телефоны:</li>
@@ -317,8 +334,8 @@
           <button class="button button__write">Написать нам</button>
           </a>
         </div>
-      </div>
-
+      </section>
+    </main>
       <footer class="footer">
         <nav class="footer__wrapper">
           <p class="footer__title">АК Горка, 2024</p>
