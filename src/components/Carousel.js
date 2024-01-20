@@ -15,6 +15,8 @@ export class Carousel {
         this.track.addEventListener('touchstart', (e) => this.startSwipe(e));
         this.track.addEventListener('touchmove', (e) => this.moveSwipe(e));
         this.track.addEventListener('touchend', () => this.endSwipe());
+        this.leftButton.addEventListener('click', () => this.stopAutoSwipe());
+        this.rightButton.addEventListener('click', () => this.stopAutoSwipe());
 
         this.updateSlides();
     }
@@ -54,4 +56,14 @@ export class Carousel {
             slide.style.display = index === this.slideIndex ? 'block' : 'none';
         });
     }
+
+    startAutoSwipe(interval) {
+        this.autoSwipeInterval = setInterval(() => {
+          this.move(1); // Move the carousel to the next slide
+        }, interval);
+      }
+
+      stopAutoSwipe() {
+        clearInterval(this.autoSwipeInterval);
+      }
 }

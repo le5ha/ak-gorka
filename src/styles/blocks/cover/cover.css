@@ -1,5 +1,5 @@
 .cover {
-    background-image: linear-gradient(134deg, rgba(40, 40, 40, 0.49) 10.2%, rgba(40, 40, 40, 0.49) 31.78%, rgba(40, 40, 40, 0.31) 39.57%, rgba(40, 40, 40, 0.00) 50.59%, rgba(40, 40, 40, 0.00) 64.16%), url('../../images/photos/main.webp');
+    background-image: linear-gradient(134deg, rgba(40, 40, 40, 0.49) 10.2%, rgba(40, 40, 40, 0.49) 31.78%, rgba(40, 40, 40, 0.31) 55.57%, rgba(40, 40, 40, 0.00) 95%, rgba(40, 40, 40, 0.00) 64.16%), url('../../images/photos/main.webp');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
