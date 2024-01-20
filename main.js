@@ -44,6 +44,12 @@ var Carousel = /*#__PURE__*/function () {
     this.track.addEventListener('touchend', function () {
       return _this.endSwipe();
     });
+    this.leftButton.addEventListener('click', function () {
+      return _this.stopAutoSwipe();
+    });
+    this.rightButton.addEventListener('click', function () {
+      return _this.stopAutoSwipe();
+    });
     this.updateSlides();
   }
   /*
@@ -84,6 +90,19 @@ var Carousel = /*#__PURE__*/function () {
       this.slides.forEach(function (slide, index) {
         slide.style.display = index === _this2.slideIndex ? 'block' : 'none';
       });
+    }
+  }, {
+    key: "startAutoSwipe",
+    value: function startAutoSwipe(interval) {
+      var _this3 = this;
+      this.autoSwipeInterval = setInterval(function () {
+        _this3.move(1); // Move the carousel to the next slide
+      }, interval);
+    }
+  }, {
+    key: "stopAutoSwipe",
+    value: function stopAutoSwipe() {
+      clearInterval(this.autoSwipeInterval);
     }
   }]);
   return Carousel;
@@ -220,6 +239,8 @@ __webpack_require__.r(__webpack_exports__);
 
 var carouselAbout = new _components_Carousel_js__WEBPACK_IMPORTED_MODULE_1__.Carousel('.carousel__track-about', '.carousel__button-about.carousel__button_type_left', '.carousel__button-about.carousel__button_type_right');
 var carouselPlans = new _components_Carousel_js__WEBPACK_IMPORTED_MODULE_1__.Carousel('.carousel__track-plans', '.carousel__button-plans.carousel__button_type_left', '.carousel__button-plans.carousel__button_type_right');
+carouselAbout.startAutoSwipe(3000); // Auto-swipe every 3 seconds
+carouselPlans.startAutoSwipe(3000);
 new _components_ResponsiveLink_js__WEBPACK_IMPORTED_MODULE_2__.ResponsiveLink('.link__call', 'tel:+79184087741', '#contacts', 600);
 })();
 
