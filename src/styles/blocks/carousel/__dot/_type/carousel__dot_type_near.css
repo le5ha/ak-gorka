@@ -1,0 +1,12 @@
+.carousel__dot_type_near {
+    width: 10px;
+    height: 10px;
+    background-color: #bbb;
+}
+
+@media screen and (max-width: 880px) {
+    .carousel__dot_type_near {
+        width: 6px;
+        height: 6px;
+    }    
+}

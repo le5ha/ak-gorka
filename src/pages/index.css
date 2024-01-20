@@ -59,3 +59,7 @@
 @import url('../styles/blocks/buttons/__link/buttons__link.css');
 @import url('../styles/blocks/carousel/__image/_type/carousel__image_type_desktop.css');
 @import url('../styles/blocks/carousel/__image/_type/carousel__image_type_mobile.css');
+@import url('../styles/blocks/carousel/__dot/carousel__dot.css');
+@import url('../styles/blocks/carousel/__dot/_type/carousel__dot_type_active.css');
+@import url('../styles/blocks/carousel/__dot/_type/carousel__dot_type_near.css');
+@import url('../styles/blocks/carousel/dots-container/carousel__dots-container.css');

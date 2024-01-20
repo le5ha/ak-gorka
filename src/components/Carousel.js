@@ -1,5 +1,5 @@
 export class Carousel {
-    constructor(trackSelector, leftButtonSelector, rightButtonSelector) {
+    constructor(trackSelector, leftButtonSelector, rightButtonSelector, dotsContainerSelector) {
         this.slideIndex = 0;
         this.track = document.querySelector(trackSelector);
         this.slides = Array.from(this.track.children);
@@ -7,63 +7,70 @@ export class Carousel {
 
         this.leftButton = document.querySelector(leftButtonSelector);
         this.rightButton = document.querySelector(rightButtonSelector);
+        this.dotsContainer = document.querySelector(dotsContainerSelector);
 
-        this.leftButton.addEventListener('click', () => this.move(-1));
-        this.rightButton.addEventListener('click', () => this.move(1));
-
-        this.startX = 0;
-        this.track.addEventListener('touchstart', (e) => this.startSwipe(e));
-        this.track.addEventListener('touchmove', (e) => this.moveSwipe(e));
-        this.track.addEventListener('touchend', () => this.endSwipe());
-        this.leftButton.addEventListener('click', () => this.stopAutoSwipe());
-        this.rightButton.addEventListener('click', () => this.stopAutoSwipe());
-
-        this.updateSlides();
-    }
-/*
-    startSwipe(e) {
-        this.startX = e.touches[0].clientX;
-    }
-
-    moveSwipe(e) {
-        const currentX = e.touches[0].clientX;
-        const diffX = this.startX - currentX;
-
-        if (diffX > 0) {
-            this.move(1);
-        } else if (diffX < 0) {
+        this.leftButton.addEventListener('click', () => {
             this.move(-1);
-        }
-    }
-
-    endSwipe() {
-        this.startX = 0;
-    }
-*/
-    move(n) {
-        this.slideIndex += n;
-        if (this.slideIndex < 0) {
-            this.slideIndex = this.totalSlides - 1;
-        } else if (this.slideIndex >= this.totalSlides) {
-            this.slideIndex = 0;
-        }
-
+            this.stopAutoSwipe();
+        });
+        this.rightButton.addEventListener('click', () => {
+            this.move(1);
+            this.stopAutoSwipe();
+        });
+        this.createDots();
         this.updateSlides();
     }
+
+    createDots() {
+        this.slides.forEach((_, i) => {
+          const dot = document.createElement('div');
+          dot.classList.add('carousel__dot');
+          if (i === this.slideIndex) {
+            dot.classList.add('carousel__dot_type_active');
+          }
+          dot.addEventListener('click', () => {
+            this.moveTo(i);
+            this.stopAutoSwipe();
+          });
+          this.dotsContainer.appendChild(dot);
+        });
+      }
+      
+      moveTo(i) {
+        this.slideIndex = i;
+        this.updateSlides();
+      }
 
     updateSlides() {
-        this.slides.forEach((slide, index) => {
-            slide.style.display = index === this.slideIndex ? 'block' : 'none';
+        this.slides.forEach((slide, i) => {
+          slide.style.display = i === this.slideIndex ? 'block' : 'none';
         });
-    }
+      
+        Array.from(this.dotsContainer.children).forEach((dot, i) => {
+          dot.classList.toggle('carousel__dot_type_active', i === this.slideIndex);
+          dot.classList.toggle('carousel__dot_type_near', Math.abs(i - this.slideIndex) === 1);
+        });
+      }
+
+      move(n) {
+        this.slideIndex += n;
+        if (this.slideIndex > this.slides.length - 1) {
+          this.slideIndex = 0;
+        }
+        if (this.slideIndex < 0) {
+          this.slideIndex = this.slides.length - 1;
+        }
+      
+        this.updateSlides();
+      }
 
     startAutoSwipe(interval) {
         this.autoSwipeInterval = setInterval(() => {
-          this.move(1); // Move the carousel to the next slide
+            this.move(1);
         }, interval);
-      }
+    }
 
-      stopAutoSwipe() {
+    stopAutoSwipe() {
         clearInterval(this.autoSwipeInterval);
-      }
+    }
 }
