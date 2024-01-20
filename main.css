@@ -97,7 +97,7 @@
 /*!********************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[0].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/styles/blocks/carousel/__image/carousel__image.css ***!
   \********************************************************************************************************************************************************************************/
-.carousel__image{align-self:center;background-position:50%;background-repeat:no-repeat;background-size:cover;display:flex;margin:0;padding:0;width:100%}
+.carousel__image{align-self:center;background-position:50%;background-repeat:no-repeat;background-size:cover;display:flex;margin:0;padding:0;transition:.5s ease;width:100%}
 /*!**********************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[0].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/styles/blocks/carousel/__button/carousel__button.css ***!
   \**********************************************************************************************************************************************************************************/
@@ -242,6 +242,22 @@
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[0].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/styles/blocks/carousel/__image/_type/carousel__image_type_mobile.css ***!
   \**************************************************************************************************************************************************************************************************/
 .carousel__image_type_mobile{display:none;max-height:70vh;-o-object-fit:contain;object-fit:contain}@media screen and (max-width:600px){.carousel__image_type_mobile{display:block}}
+/*!****************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[0].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/styles/blocks/carousel/__dot/carousel__dot.css ***!
+  \****************************************************************************************************************************************************************************/
+.carousel__dot{background-color:#bbb;border-radius:50%;display:inline-block;height:8px;margin:5px;transition:background-color .6s ease;width:8px}@media screen and (max-width:880px){.carousel__dot{height:5px;margin:3px;width:5px}}
+/*!**********************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[0].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/styles/blocks/carousel/__dot/_type/carousel__dot_type_active.css ***!
+  \**********************************************************************************************************************************************************************************************/
+.carousel__dot_type_active{background-color:#717171;height:12px;width:12px}@media screen and (max-width:880px){.carousel__dot_type_active{height:7px;width:7px}}
+/*!********************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[0].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/styles/blocks/carousel/__dot/_type/carousel__dot_type_near.css ***!
+  \********************************************************************************************************************************************************************************************/
+.carousel__dot_type_near{background-color:#bbb;height:10px;width:10px}@media screen and (max-width:880px){.carousel__dot_type_near{height:6px;width:6px}}
+/*!************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[0].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/styles/blocks/carousel/dots-container/carousel__dots-container.css ***!
+  \************************************************************************************************************************************************************************************************/
+.carousel__dots-container{display:flex;justify-content:center;margin:0;padding:0}
 /*!*********************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[0].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/pages/index.css ***!
   \*********************************************************************************************************************************************/

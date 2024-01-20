@@ -19,7 +19,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 function _toPropertyKey(t) { var i = _toPrimitive(t, "string"); return "symbol" == _typeof(i) ? i : String(i); }
 function _toPrimitive(t, r) { if ("object" != _typeof(t) || !t) return t; var e = t[Symbol.toPrimitive]; if (void 0 !== e) { var i = e.call(t, r || "default"); if ("object" != _typeof(i)) return i; throw new TypeError("@@toPrimitive must return a primitive value."); } return ("string" === r ? String : Number)(t); }
 var Carousel = /*#__PURE__*/function () {
-  function Carousel(trackSelector, leftButtonSelector, rightButtonSelector) {
+  function Carousel(trackSelector, leftButtonSelector, rightButtonSelector, dotsContainerSelector) {
     var _this = this;
     _classCallCheck(this, Carousel);
     this.slideIndex = 0;
@@ -28,75 +28,71 @@ var Carousel = /*#__PURE__*/function () {
     this.totalSlides = this.slides.length;
     this.leftButton = document.querySelector(leftButtonSelector);
     this.rightButton = document.querySelector(rightButtonSelector);
+    this.dotsContainer = document.querySelector(dotsContainerSelector);
     this.leftButton.addEventListener('click', function () {
-      return _this.move(-1);
+      _this.move(-1);
+      _this.stopAutoSwipe();
     });
     this.rightButton.addEventListener('click', function () {
-      return _this.move(1);
+      _this.move(1);
+      _this.stopAutoSwipe();
     });
-    this.startX = 0;
-    this.track.addEventListener('touchstart', function (e) {
-      return _this.startSwipe(e);
-    });
-    this.track.addEventListener('touchmove', function (e) {
-      return _this.moveSwipe(e);
-    });
-    this.track.addEventListener('touchend', function () {
-      return _this.endSwipe();
-    });
-    this.leftButton.addEventListener('click', function () {
-      return _this.stopAutoSwipe();
-    });
-    this.rightButton.addEventListener('click', function () {
-      return _this.stopAutoSwipe();
-    });
+    this.createDots();
     this.updateSlides();
   }
-  /*
-      startSwipe(e) {
-          this.startX = e.touches[0].clientX;
-      }
-  
-      moveSwipe(e) {
-          const currentX = e.touches[0].clientX;
-          const diffX = this.startX - currentX;
-  
-          if (diffX > 0) {
-              this.move(1);
-          } else if (diffX < 0) {
-              this.move(-1);
-          }
-      }
-  
-      endSwipe() {
-          this.startX = 0;
-      }
-  */
   _createClass(Carousel, [{
-    key: "move",
-    value: function move(n) {
-      this.slideIndex += n;
-      if (this.slideIndex < 0) {
-        this.slideIndex = this.totalSlides - 1;
-      } else if (this.slideIndex >= this.totalSlides) {
-        this.slideIndex = 0;
-      }
+    key: "createDots",
+    value: function createDots() {
+      var _this2 = this;
+      this.slides.forEach(function (_, i) {
+        var dot = document.createElement('div');
+        dot.classList.add('carousel__dot');
+        if (i === _this2.slideIndex) {
+          dot.classList.add('carousel__dot_type_active');
+        }
+        dot.addEventListener('click', function () {
+          _this2.moveTo(i);
+          _this2.stopAutoSwipe();
+        });
+        _this2.dotsContainer.appendChild(dot);
+      });
+    }
+  }, {
+    key: "moveTo",
+    value: function moveTo(i) {
+      this.slideIndex = i;
       this.updateSlides();
     }
   }, {
     key: "updateSlides",
     value: function updateSlides() {
-      var _this2 = this;
-      this.slides.forEach(function (slide, index) {
-        slide.style.display = index === _this2.slideIndex ? 'block' : 'none';
+      var _this3 = this;
+      this.slides.forEach(function (slide, i) {
+        slide.style.display = i === _this3.slideIndex ? 'block' : 'none';
       });
+      Array.from(this.dotsContainer.children).forEach(function (dot, i) {
+        dot.classList.toggle('carousel__dot_type_active', i === _this3.slideIndex);
+        dot.classList.toggle('carousel__dot_type_near', Math.abs(i - _this3.slideIndex) === 1);
+      });
+    }
+  }, {
+    key: "move",
+    value: function move(n) {
+      this.slideIndex += n;
+      if (this.slideIndex > this.slides.length - 1) {
+        this.slideIndex = 0;
+      }
+      if (this.slideIndex < 0) {
+        this.slideIndex = this.slides.length - 1;
+      }
+      this.updateSlides();
     }
   }, {
     key: "startAutoSwipe",
     value: function startAutoSwipe(interval) {
-      var _this3 = this;
+      var _this4 = this;
       this.autoSwipeInterval = setInterval(function () {
-        _this3.move(1); // Move the carousel to the next slide
+        _this4.move(1);
       }, interval);
     }
   }, {
@@ -237,8 +233,8 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var carouselAbout = new _components_Carousel_js__WEBPACK_IMPORTED_MODULE_1__.Carousel('.carousel__track-about', '.carousel__button-about.carousel__button_type_left', '.carousel__button-about.carousel__button_type_right');
-var carouselPlans = new _components_Carousel_js__WEBPACK_IMPORTED_MODULE_1__.Carousel('.carousel__track-plans', '.carousel__button-plans.carousel__button_type_left', '.carousel__button-plans.carousel__button_type_right');
+var carouselAbout = new _components_Carousel_js__WEBPACK_IMPORTED_MODULE_1__.Carousel('.carousel__track-about', '.carousel__button-about.carousel__button_type_left', '.carousel__button-about.carousel__button_type_right', '.carousel__dots-about');
+var carouselPlans = new _components_Carousel_js__WEBPACK_IMPORTED_MODULE_1__.Carousel('.carousel__track-plans', '.carousel__button-plans.carousel__button_type_left', '.carousel__button-plans.carousel__button_type_right', '.carousel__dots-plans');
 carouselAbout.startAutoSwipe(3000); // Auto-swipe every 3 seconds
 carouselPlans.startAutoSwipe(3000);
 new _components_ResponsiveLink_js__WEBPACK_IMPORTED_MODULE_2__.ResponsiveLink('.link__call', 'tel:+79184087741', '#contacts', 600);
