@@ -1,4 +1,5 @@
 .footer__item {
     text-decoration: none;
     color: #909090;
+    box-sizing: border-box;
 }

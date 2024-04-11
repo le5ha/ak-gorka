@@ -73,4 +73,5 @@ export class Carousel {
     stopAutoSwipe() {
         clearInterval(this.autoSwipeInterval);
     }
+    
 }

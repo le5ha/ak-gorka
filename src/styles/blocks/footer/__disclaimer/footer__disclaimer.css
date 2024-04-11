@@ -1,0 +1,27 @@
+.footer__disclaimer {
+    text-decoration: none;
+    font-size: 12px;
+    color: #909090;
+    font-weight: 400;
+    margin: 0;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 1080px) {
+    .footer__disclaimer {
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .footer__disclaimer {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .footer__disclaimer {
+        font-size: 8px;
+    }
+}

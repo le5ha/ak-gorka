@@ -4,6 +4,7 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>АК ГОРКА. Аппартаменты в Сочи от застройщика.</title>
+    <link rel="icon" href=<%=require('./styles/images/icons/favicon.svg')%> type="image/x-icon"/>
     <meta name="description" content="Апартаменты бизнес-класса в Сочи от застройщика.
     Информация о комплексе апартаментов: преимущества, фотографии, планировки и контакты для просмотра и покупки"/>
     <meta name="keywords" content="Апартаменты Апапт-отель Сочи Хоста квартира купить"/>
@@ -41,10 +42,14 @@
     </header>
     <main class="content">
     <section class="cover">
-      <div class="cover__wrapper">
+        <img
+          class="cover__image"
+          src="<%=require('./styles/images/photos/main.webp')%>"
+          alt="АК Горка – комплекс апартаментов бизнес класса в Сочи">
+        <div class="cover__wrapper">
         <h1 class="cover__title">Комплекс апартаментов бизнес класса в&nbsp;Сочи</h1>
         <p class="cover__text">
-          Доступно приоберетние апартаментов в ипотеку и&nbsp;рассрочку в лучших
+          Доступно приоберетние апартаментов&nbsp;в ипотеку и&nbsp;рассрочку&nbsp;в лучших
           банках страны
         </p>
         <div class="buttons__cover buttons">
@@ -336,17 +341,20 @@
           <p class="footer__title">АК Горка, 2024</p>
       <ul class="footer__list">
         <li class="footer__item">
-          <a class="footer__link" href="#">Политика конфиденциальности
-          </a>
-        </li>
-        <li class="footer__item">
           <a class="footer__link" href="https://t.me/akgorka">Канал комплекса в Telegram</a>
         </li>
         <li class="footer__item">
           <a class="footer__link" href="https://disk.yandex.com/i/CqRr3EOiDJ7jHA">Презентация комплекса</a>
         </li>
+        <li class="footer__item">
+            <a class="footer__link" href="https://docviewer.yandex.ru/view/1720434237/?*=ToluMPbZ0Lv8RlLzoENEIVQBkWJ7InVybCI6InlhLWRpc2s6Ly8vZGlzay9wb2xpY3kucGRmIiwidGl0bGUiOiJwb2xpY3kucGRmIiwibm9pZnJhbWUiOmZhbHNlLCJ1aWQiOiIxNzIwNDM0MjM3IiwidHMiOjE3MTI4NjM5MTM4MTksInl1IjoiNDE1NzUxMzQ1MTcwNDY0NjIzOSJ9">Политика в отношении обработки персональных данных</a>
+          </a>
+        </li>
       </ul>
     </nav>
+    <p class="footer__disclaimer">Все права&nbsp;на публикуемые&nbsp;на сайте материалы принадлежат&nbsp;ООО «Сочистрой-Инвест».</p>
+    <p class="footer__disclaimer">Пользователь уведомлен,&nbsp;что любые материалы, размещенные&nbsp;на сайте, являются объектами интеллектуальной собственности ООО «Сочистрой-Инвест» (правообладателя). Пользователь не вправе без предварительного письменного разрешения правообладателя осуществлять какие-либо действия с объектами интеллектуальной собственности,&nbsp;в противном случае, правообладатель оставляет&nbsp;за собой право&nbsp;на взыскание штрафов, предусмотренных законодательством РФ,&nbsp;а также&nbsp;на обращение&nbsp;в компетентные органы&nbsp;за защитой своих прав и законных интересов.</p>
+    <p class="footer__disclaimer">Любая информация, представленная&nbsp;на данном сайте, носит исключительно информационный характер и&nbsp;ни&nbsp;при каких условиях&nbsp;не является публичной офертой, определяемой положениями статьи 437 ГК РФ.</p>
       </footer>
   </body>
 </html>

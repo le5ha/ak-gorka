@@ -33,7 +33,11 @@
 /*!***********************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[0].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/styles/blocks/cover/cover.css ***!
   \***********************************************************************************************************************************************************/
-.cover{align-items:flex-start;background-image:linear-gradient(134deg,rgba(40,40,40,.49) 10.2%,rgba(40,40,40,.49) 31.78%,rgba(40,40,40,.31) 55.57%,rgba(40,40,40,0) 95%,rgba(40,40,40,0) 0),url(images/main.4e034dde6dfb3eeceb06.webp);background-position:50%;background-repeat:no-repeat;background-size:cover;display:flex;flex-direction:column;gap:24px;height:100vh;justify-content:flex-start;margin:0;padding:0;width:100%}@media screen and (max-width:1280px){.cover{gap:16px}}@media screen and (max-width:1080px){.cover{gap:14px;height:80vh}}@media screen and (max-width:768px){.cover{gap:12px;height:60vh}}
+.cover{align-items:flex-start;background-image:linear-gradient(134deg,rgba(40,40,40,.49) 10.2%,rgba(40,40,40,.49) 31.78%,rgba(40,40,40,.31) 55.57%,rgba(40,40,40,0) 95%,rgba(40,40,40,0) 0);display:flex;flex-direction:column;gap:24px;height:100vh;justify-content:flex-start;margin:0;padding:0;position:relative;width:100%}@media screen and (max-width:1280px){.cover{gap:16px;height:90vh}}@media screen and (max-width:1080px){.cover{gap:14px;height:80vh}}@media screen and (max-width:768px){.cover{gap:12px;height:60vh}}
+/*!**************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[0].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/styles/blocks/cover/__image/cover__image.css ***!
+  \**************************************************************************************************************************************************************************/
+.cover__image{height:100%;left:0;-o-object-fit:cover;object-fit:cover;position:absolute;top:0;width:100%;z-index:-1}
 /*!**************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[0].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/styles/blocks/cover/__title/cover__title.css ***!
   \**************************************************************************************************************************************************************************/
@@ -97,7 +101,7 @@
 /*!********************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[0].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/styles/blocks/carousel/__image/carousel__image.css ***!
   \********************************************************************************************************************************************************************************/
-.carousel__image{align-self:center;background-position:50%;background-repeat:no-repeat;background-size:cover;display:flex;margin:0;padding:0;width:100%}
+.carousel__image{align-self:center;background-position:50%;background-repeat:no-repeat;display:flex;margin:0;-o-object-fit:contain;object-fit:contain;padding:0;transition:.5s ease;width:100%}
 /*!**********************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[0].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/styles/blocks/carousel/__button/carousel__button.css ***!
   \**********************************************************************************************************************************************************************************/
@@ -197,11 +201,11 @@
 /*!*************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[0].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/styles/blocks/footer/footer.css ***!
   \*************************************************************************************************************************************************************/
-.footer{align-items:center;background-color:#282828;display:flex;flex-direction:row;height:80px;justify-content:space-between;margin:40px 0 0;width:100%}@media screen and (max-width:1280px){.footer{height:72px}}@media screen and (max-width:1080px){.footer{height:100%}}
+.footer{align-items:center;background-color:#282828;display:block;flex-direction:row;height:80px;justify-content:space-between;margin:0;padding:40px 10%;width:80%}@media screen and (max-width:1280px){.footer{height:72px}}@media screen and (max-width:1080px){.footer{height:100%;margin:0 5%;width:90%}}
 /*!********************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[0].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/styles/blocks/footer/__wrapper/footer__wrapper.css ***!
   \********************************************************************************************************************************************************************************/
-.footer__wrapper{align-items:center;color:#909090;display:flex;flex-direction:row;font-family:Inter;font-feature-settings:"clig" off,"liga" off;font-size:18px;font-style:normal;font-weight:300;justify-content:space-between;line-height:140%;margin:0 10%;padding:8px 0;width:80%}@media screen and (max-width:1080px){.footer__wrapper{align-items:flex-start;flex-direction:column;font-size:16px;margin:0 5%;width:90%}}@media screen and (max-width:440px){.footer__wrapper{align-items:flex-start;flex-direction:column;font-size:14px;margin:0 5%;width:90%}}
+.footer__wrapper{align-items:center;color:#909090;display:flex;flex-direction:row;font-family:Inter;font-feature-settings:"clig" off,"liga" off;font-size:18px;font-style:normal;font-weight:300;justify-content:space-between;line-height:140%;padding:8px 0}@media screen and (max-width:1080px){.footer__wrapper{align-items:flex-start;flex-direction:column;font-size:16px}}@media screen and (max-width:440px){.footer__wrapper{align-items:flex-start;flex-direction:column;font-size:14px}}
 /*!****************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[0].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/styles/blocks/footer/__title/footer__title.css ***!
   \****************************************************************************************************************************************************************************/
@@ -218,6 +222,10 @@
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[0].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/styles/blocks/footer/__link/footer__link.css ***!
   \**************************************************************************************************************************************************************************/
 .footer__link{color:#909090;text-decoration:underline}.footer__link:hover{opacity:.7;transition:.2s}
+/*!**************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[0].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/styles/blocks/footer/__disclaimer/footer__disclaimer.css ***!
+  \**************************************************************************************************************************************************************************************/
+.footer__disclaimer{color:#909090;font-family:Philosopher;font-size:8px;font-weight:400;margin:0;padding:24px 0;text-decoration:none}@media screen and (max-width:1080px){.footer__disclaimer{padding-bottom:20px}}
 /*!********************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[0].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/styles/blocks/header/__link/_type/header__link_type_active.css ***!
   \********************************************************************************************************************************************************************************************/
@@ -245,15 +253,15 @@
 /*!****************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[0].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/styles/blocks/carousel/__dot/carousel__dot.css ***!
   \****************************************************************************************************************************************************************************/
-.carousel__dot{background-color:#bbb;border-radius:50%;display:inline-block;height:5px;margin:5px;width:5px}
+.carousel__dot{background-color:#bbb;border-radius:50%;display:inline-block;height:8px;margin:5px;transition:background-color .6s ease;width:8px}@media screen and (max-width:880px){.carousel__dot{height:5px;margin:3px;width:5px}}
 /*!**********************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[0].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/styles/blocks/carousel/__dot/_type/carousel__dot_type_active.css ***!
   \**********************************************************************************************************************************************************************************************/
-.carousel__dot_type_active{background-color:#717171;height:7px;width:7px}
+.carousel__dot_type_active{background-color:#717171;height:12px;width:12px}@media screen and (max-width:880px){.carousel__dot_type_active{height:7px;width:7px}}
 /*!********************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[0].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/styles/blocks/carousel/__dot/_type/carousel__dot_type_near.css ***!
   \********************************************************************************************************************************************************************************************/
-.carousel__dot_type_near{background-color:#717171;height:15px;width:15px}
+.carousel__dot_type_near{background-color:#bbb;height:10px;width:10px}@media screen and (max-width:880px){.carousel__dot_type_near{height:6px;width:6px}}
 /*!************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[0].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/styles/blocks/carousel/dots-container/carousel__dots-container.css ***!
   \************************************************************************************************************************************************************************************************/

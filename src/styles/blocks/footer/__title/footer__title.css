@@ -7,9 +7,3 @@
     margin: 0;
     padding: 0;
 }
-
-@media screen and (max-width: 1080px) {
-    .footer__title {
-        padding-bottom: 20px;
-    }
-}
